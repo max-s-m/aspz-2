@@ -21,9 +21,11 @@
 
 ```
 time_t bits (1 bit +- sign): 64
-Max time_t is 2^63: 9223372036854775807
+
+Max time_t is 2^63 - 1: 9223372036854775807
+
 ++time1 result: -9223372036854775808
-Negative value - OVERFLOWED
+Negative value mrans 2^63 is max time, because it OVERFLOWED when ++time1
 ```
 
 ### Перегляд сегментів за допомогою size:
